@@ -1,6 +1,6 @@
 pipeline {
   stages {
-    stage("test) {
+    stage("test") {
       steps println 'hola'
     }
   }
