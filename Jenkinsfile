@@ -1,7 +1,10 @@
 pipeline {
-  stages {
-    stage("test") {
-      steps println 'hola'
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
-  }
 }
